@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
@@ -15,6 +16,7 @@
         android:text="@string/_1" />
 
     <Button
+        android:id="@+id/btn_roll"
         android:text="@string/roll"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
